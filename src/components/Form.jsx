@@ -3,6 +3,7 @@ import { FaRegCopy } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import { FaXmark } from "react-icons/fa6";
 import { MdDelete } from "react-icons/md";
+import Email from "./Email";
 
 const Form = () => {
   const [inputName, setInputName] = useState("");
@@ -86,6 +87,7 @@ const Form = () => {
                 Send
               </motion.button>
             </div>
+            <Email />
           </form>
         </div>
         <div>
